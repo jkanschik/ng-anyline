@@ -75,6 +75,7 @@ export class AppComponent implements OnInit, AfterViewInit {
     const root = document.getElementById('root');
 
     const Anyline = init({
+      debugAnyline: true,
       preset: this.presetName,
       viewConfig: this.viewConfig,
       license: this.anylicense,
